@@ -3,7 +3,7 @@ free -h
 read -p "Please ensure swap is disabled!" asd
 
 echo "Installing key updater"
-curl https://raw.githubusercontent.com/OMS-Opensource-Minigame-Server/OSM-Sysops/main/addkeys.sh > /etc/cron.daily/addkeys.sh
+curl https://raw.githubusercontent.com/OMS-Opensource-Minigame-Server/OSM-Sysops/main/add-keys.sh > /etc/cron.daily/addkeys.sh
 chmod +x /etc/cron.daily/addkeys.sh
 /etc/cron.daily/addkeys.sh
 
